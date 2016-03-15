@@ -15,6 +15,11 @@
 		957325F61C97A56D00EDA94B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957325F41C97A56D00EDA94B /* LaunchScreen.storyboard */; };
 		957326011C97A56D00EDA94B /* TheAddressBookDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 957326001C97A56D00EDA94B /* TheAddressBookDemoTests.m */; };
 		9573260C1C97A56D00EDA94B /* TheAddressBookDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9573260B1C97A56D00EDA94B /* TheAddressBookDemoUITests.m */; };
+		9573261B1C97A5B500EDA94B /* YLAddBookViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9573261A1C97A5B500EDA94B /* YLAddBookViewController.m */; };
+		9573261F1C97A61500EDA94B /* YLChineseString.m in Sources */ = {isa = PBXBuildFile; fileRef = 9573261E1C97A61500EDA94B /* YLChineseString.m */; };
+		957326251C97A69B00EDA94B /* YLPinYin.c in Sources */ = {isa = PBXBuildFile; fileRef = 957326231C97A69B00EDA94B /* YLPinYin.c */; };
+		957326281C97A7FE00EDA94B /* YLAddBookTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 957326271C97A7FE00EDA94B /* YLAddBookTableViewCell.m */; };
+		9573262B1C97A82600EDA94B /* YLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9573262A1C97A82600EDA94B /* YLLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,16 @@
 		957326071C97A56D00EDA94B /* TheAddressBookDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheAddressBookDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9573260B1C97A56D00EDA94B /* TheAddressBookDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheAddressBookDemoUITests.m; sourceTree = "<group>"; };
 		9573260D1C97A56D00EDA94B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		957326191C97A5B500EDA94B /* YLAddBookViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAddBookViewController.h; sourceTree = "<group>"; };
+		9573261A1C97A5B500EDA94B /* YLAddBookViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAddBookViewController.m; sourceTree = "<group>"; };
+		9573261D1C97A61500EDA94B /* YLChineseString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLChineseString.h; sourceTree = "<group>"; };
+		9573261E1C97A61500EDA94B /* YLChineseString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLChineseString.m; sourceTree = "<group>"; };
+		957326231C97A69B00EDA94B /* YLPinYin.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = YLPinYin.c; sourceTree = "<group>"; };
+		957326241C97A69B00EDA94B /* YLPinYin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPinYin.h; sourceTree = "<group>"; };
+		957326261C97A7FE00EDA94B /* YLAddBookTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAddBookTableViewCell.h; sourceTree = "<group>"; };
+		957326271C97A7FE00EDA94B /* YLAddBookTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAddBookTableViewCell.m; sourceTree = "<group>"; };
+		957326291C97A82600EDA94B /* YLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLLabel.h; sourceTree = "<group>"; };
+		9573262A1C97A82600EDA94B /* YLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,13 @@
 				957325EA1C97A56D00EDA94B /* AppDelegate.m */,
 				957325EC1C97A56D00EDA94B /* ViewController.h */,
 				957325ED1C97A56D00EDA94B /* ViewController.m */,
+				957326191C97A5B500EDA94B /* YLAddBookViewController.h */,
+				9573261A1C97A5B500EDA94B /* YLAddBookViewController.m */,
+				957326261C97A7FE00EDA94B /* YLAddBookTableViewCell.h */,
+				957326271C97A7FE00EDA94B /* YLAddBookTableViewCell.m */,
+				957326291C97A82600EDA94B /* YLLabel.h */,
+				9573262A1C97A82600EDA94B /* YLLabel.m */,
+				9573261C1C97A5ED00EDA94B /* YLChineseSorting */,
 				957325EF1C97A56D00EDA94B /* Main.storyboard */,
 				957325F21C97A56D00EDA94B /* Assets.xcassets */,
 				957325F41C97A56D00EDA94B /* LaunchScreen.storyboard */,
@@ -138,6 +160,17 @@
 				9573260D1C97A56D00EDA94B /* Info.plist */,
 			);
 			path = TheAddressBookDemoUITests;
+			sourceTree = "<group>";
+		};
+		9573261C1C97A5ED00EDA94B /* YLChineseSorting */ = {
+			isa = PBXGroup;
+			children = (
+				9573261D1C97A61500EDA94B /* YLChineseString.h */,
+				9573261E1C97A61500EDA94B /* YLChineseString.m */,
+				957326231C97A69B00EDA94B /* YLPinYin.c */,
+				957326241C97A69B00EDA94B /* YLPinYin.h */,
+			);
+			name = YLChineseSorting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +303,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9573261B1C97A5B500EDA94B /* YLAddBookViewController.m in Sources */,
+				9573262B1C97A82600EDA94B /* YLLabel.m in Sources */,
 				957325EE1C97A56D00EDA94B /* ViewController.m in Sources */,
+				9573261F1C97A61500EDA94B /* YLChineseString.m in Sources */,
+				957326281C97A7FE00EDA94B /* YLAddBookTableViewCell.m in Sources */,
 				957325EB1C97A56D00EDA94B /* AppDelegate.m in Sources */,
 				957325E81C97A56D00EDA94B /* main.m in Sources */,
+				957326251C97A69B00EDA94B /* YLPinYin.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
